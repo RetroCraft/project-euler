@@ -17,7 +17,7 @@ public class Problem4 {
 		while (true) {
 			int test = a * b;
 			String total = String.valueOf(test);
-			int halfLength = Math.floorDiv(total.length(), 2);
+			int halfLength = (int) Math.floor(total.length() / 2);
 			String start = total.substring(0, halfLength);
 			// generate reversed end string
 			String end = "";
