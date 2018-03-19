@@ -4,7 +4,7 @@ package ca.retrocraft.projecteuler;
  * 10 001st prime
  * @author James Ah Yong
  */
-public class Problem7 {
+public class Problem007 {
 
 	public static void main(String[] args) {
 		int n = 0;

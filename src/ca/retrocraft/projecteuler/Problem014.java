@@ -4,7 +4,7 @@ package ca.retrocraft.projecteuler;
  * Longest Collatz sequence
  * @author James Ah Yong
  */
-public class Problem14 {
+public class Problem014 {
 
 	public static void main(String[] args) {
 		long longest = 0;

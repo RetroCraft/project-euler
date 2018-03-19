@@ -7,7 +7,7 @@ import java.util.*;
  * Amicable numbers
  * @author James Ah Yong
  */
-public class Problem21 {
+public class Problem021 {
 
 	public static void main(String[] args) {
 		List<Integer> amicableNumbers = new ArrayList<Integer>();		

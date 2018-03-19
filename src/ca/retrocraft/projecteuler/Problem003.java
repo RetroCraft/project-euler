@@ -4,7 +4,7 @@ package ca.retrocraft.projecteuler;
  * Largest prime factor
  * @author James Ah Yong
  */
-public class Problem3 {
+public class Problem003 {
 
 	public static void main(String[] args) {
 		long n = 600851475143l;

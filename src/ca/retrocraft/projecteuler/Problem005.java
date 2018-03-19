@@ -4,7 +4,7 @@ package ca.retrocraft.projecteuler;
  * Smallest multiple
  * @author James Ah Yong
  */
-public class Problem5 {
+public class Problem005 {
 
 	public static void main(String[] args) {
 		int n = 1;

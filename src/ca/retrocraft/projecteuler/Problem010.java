@@ -4,7 +4,7 @@ package ca.retrocraft.projecteuler;
  * Summation of primes
  * @author James Ah Yong
  */
-public class Problem10 {
+public class Problem010 {
 
 	public static void main(String[] args) {
 		long total = 0;

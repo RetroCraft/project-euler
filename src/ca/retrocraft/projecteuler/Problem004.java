@@ -6,7 +6,7 @@ import java.util.*;
  * Largest palindrome product
  * @author James Ah Yong
  */
-public class Problem4 {
+public class Problem004 {
 
 	public static void main(String[] args) {
 		int a = 999;

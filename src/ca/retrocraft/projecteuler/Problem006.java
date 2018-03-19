@@ -4,7 +4,7 @@ package ca.retrocraft.projecteuler;
  * Sum square difference
  * @author James Ah Yong
  */
-public class Problem6 {
+public class Problem006 {
 
 	public static void main(String[] args) {
 		long squares = 0;

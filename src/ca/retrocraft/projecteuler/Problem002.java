@@ -4,7 +4,7 @@ package ca.retrocraft.projecteuler;
  * Even Fibonacci Numbers
  * @author James Ah Yong
  */
-public class Problem2 {
+public class Problem002 {
 
 	public static void main(String[] args) {
 		int last = 1;

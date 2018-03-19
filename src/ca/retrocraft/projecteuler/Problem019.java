@@ -1,12 +1,10 @@
 package ca.retrocraft.projecteuler;
 
-import java.math.*;
-
 /**
  * Counting Sundays
  * @author James Ah Yong
  */
-public class Problem19 {
+public class Problem019 {
 
 	public static void main(String[] args) {
 		// Sunday: 0, Monday: 1, etc.

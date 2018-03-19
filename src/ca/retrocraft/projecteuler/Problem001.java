@@ -4,7 +4,7 @@ package ca.retrocraft.projecteuler;
  * Multiples of 3 and 5
  * @author James Ah Yong
  */
-public class Problem1 {
+public class Problem001 {
 
 	public static void main(String[] args) {
 		int total = 0;

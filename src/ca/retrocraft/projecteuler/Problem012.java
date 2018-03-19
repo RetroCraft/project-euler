@@ -4,7 +4,7 @@ package ca.retrocraft.projecteuler;
  * Highly divisible triangular number
  * @author James Ah Yong
  */
-public class Problem12 {
+public class Problem012 {
 
 	public static void main(String[] args) {
 		for (long i = 1; true; i++) {
