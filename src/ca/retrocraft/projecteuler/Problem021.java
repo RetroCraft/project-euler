@@ -22,11 +22,11 @@ public class Problem021 {
 			}
 		}
 		
-		System.out.println(Utilities.sumList(amicableNumbers));
+		System.out.println(Utilities.sumInts(amicableNumbers));
 	}
 	
 	public static int divisorSum(int n) {
-		return (int) Utilities.sumList(Utilities.divisors(n));
+		return (int) Utilities.sumInts(Utilities.divisors(n));
 	}
 
 }

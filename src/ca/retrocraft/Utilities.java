@@ -1,6 +1,7 @@
 package ca.retrocraft;
 
 import java.util.*;
+import java.math.BigInteger;
 
 public class Utilities {
 
@@ -17,10 +18,18 @@ public class Utilities {
 		return factors;
 	}
 	
-	public static long sumList(Collection<Integer> list) {
+	public static long sumInts(Collection<Integer> list) {
 		long sum = 0;
 		for (int i : list) {
 			sum += i;
+		}
+		return sum;
+	}
+	
+	public static BigInteger sumLongs(Collection<Long> list) {
+		BigInteger sum = new BigInteger("0");
+		for (long i : list) {
+			sum = sum.add(new BigInteger(Long.toString(i)));
 		}
 		return sum;
 	}
