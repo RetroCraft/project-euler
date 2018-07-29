@@ -6,11 +6,12 @@ import java.io.*;
 
 /**
  * Names scores
+ * 
  * @author James Ah Yong
  */
-public class Problem022 {
+public class Problem022 extends Problem {
 
-	public static void main(String[] args) {
+	public static void main() {
 		String inputData = "";
 		try {
 			FileReader fReader = new FileReader("Problem022Names.txt");
@@ -20,13 +21,13 @@ public class Problem022 {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 		List<String> names = new ArrayList<String>(Arrays.asList(inputData.split("\",?\"?")));
-		
+
 		Collections.sort(names);
-		
+
 		List<Long> values = new ArrayList<Long>();
-		
+
 		for (int i = 0; i < names.size(); i++) {
 			int letterSum = 0;
 			char[] letters = names.get(i).toCharArray();
@@ -35,7 +36,7 @@ public class Problem022 {
 			}
 			values.add((long) (letterSum * i));
 		}
-		
+
 		System.out.println(Utilities.sumLongs(values));
 	}
 

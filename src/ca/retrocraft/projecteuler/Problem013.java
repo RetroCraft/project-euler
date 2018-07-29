@@ -12,9 +12,9 @@ import java.util.stream.Collectors;
  * 
  * @author James Ah Yong
  */
-public class Problem013 {
+public class Problem013 extends Problem {
 
-  public static void main(String[] args) {
+  public static void main() {
     List<String> lines = new ArrayList<String>();
     try {
       lines = Files.readAllLines(Paths.get("", "Problem013Numbers.txt"), StandardCharsets.UTF_8);

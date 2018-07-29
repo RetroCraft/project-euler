@@ -5,9 +5,9 @@ package ca.retrocraft.projecteuler;
  *
  * @author James Ah Yong
  */
-public class Problem023 {
+public class Problem023 extends Problem {
 
-  public static void main(String[] args) {
+  public static void main() {
     // given that we loop through 12 -> 28123 to find abundant numbers
     boolean[] abundantNumbers = new boolean[28123];
     for (int i = 12; i < 28123; i++) {

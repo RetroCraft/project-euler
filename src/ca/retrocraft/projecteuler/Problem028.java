@@ -5,9 +5,9 @@ package ca.retrocraft.projecteuler;
  *
  * @author James Ah Yong
  */
-public class Problem028 {
+public class Problem028 extends Problem {
 
-  public static void main(String[] args) {
+  public static void main() {
     System.out.println(spiral(1001));
   }
 
