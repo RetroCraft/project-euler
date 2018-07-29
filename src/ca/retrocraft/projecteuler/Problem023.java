@@ -29,7 +29,8 @@ public class Problem023 {
     for (int j = 1; j * j <= n; j++) {
       if (n % j == 0) {
         factorSum += j;
-        if (n / j != j) factorSum += n / j;
+        if (n / j != j)
+          factorSum += n / j;
         if (factorSum > n)
           return true;
       }
@@ -39,7 +40,8 @@ public class Problem023 {
 
   public static boolean sumCheck(int n, boolean[] abundantNumbers) {
     for (int abundant = 12; abundant < 28123; abundant++) {
-      if (!abundantNumbers[abundant]) continue;
+      if (!abundantNumbers[abundant])
+        continue;
       if (n - abundant < 12) {
         // abundant is too large, no abundant number will work
         return false;
