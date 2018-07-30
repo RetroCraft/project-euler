@@ -11,7 +11,7 @@ public class ProjectEuler {
 
   public static void main(String[] args) {
     String problemName = "ca.retrocraft.projecteuler.Problem" + String.format("%03d", Integer.parseInt(args[0]));
-    System.out.println("PROJECT EULER | " + problemName);
+    System.out.println(problemName);
     try {
       Class<? extends Problem> problemClass = Class.forName(problemName).asSubclass(Problem.class);
       Method main = problemClass.getMethod("main");
