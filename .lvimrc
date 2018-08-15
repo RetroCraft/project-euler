@@ -1,0 +1,6 @@
+augroup euler
+  autocmd!
+  " Command to do things
+  autocmd FileType java nnoremap <F5> :!./run-problem.zsh `echo %:t:r | grep -Po '[0-9]+'`<CR>
+  autocmd FileType mma nnoremap <F5> :!wolframscript %<CR>
+augroup euler

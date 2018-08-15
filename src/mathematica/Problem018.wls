@@ -20,9 +20,6 @@
 (*[...]*)
 
 
-SetDirectory[ParentDirectory[Directory[],2]];
-
-
 (* ::Text:: *)
 (*Mean timing: 76.7045 ms*)
 

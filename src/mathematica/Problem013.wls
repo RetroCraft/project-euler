@@ -9,9 +9,6 @@
 (*Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.*)
 
 
-SetDirectory[ParentDirectory[Directory[],2]];
-
-
 (* ::Text:: *)
 (*Mean timing: 1.75 ms *)
 
