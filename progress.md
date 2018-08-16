@@ -7,8 +7,8 @@
 |Mathematica|53|
 |Java|33|
 |Haskell|5|
-|C++|4|
-|**Total**|**95**|
+|C++|5|
+|**Total**|**96**|
 
 ## Problems
 
@@ -20,7 +20,7 @@ Click a checkmark to see the source code, click a number to see the problem.
 |[2](https://projecteuler.net/problem=2)|[✔️](src/c++/Problem002.cpp)|[✔️](src/haskell/Problem002.hs)|[✔️](src/java/Problem002.java)|[✔️](src/mathematica/Problem002.m)|
 |[3](https://projecteuler.net/problem=3)|[✔️](src/c++/Problem003.cpp)|❌|[✔️](src/java/Problem003.java)|[✔️](src/mathematica/Problem003.m)|
 |[4](https://projecteuler.net/problem=4)|[✔️](src/c++/Problem004.cpp)|[✔️](src/haskell/Problem004.hs)|[✔️](src/java/Problem004.java)|[✔️](src/mathematica/Problem004.m)|
-|[5](https://projecteuler.net/problem=5)|❌|[✔️](src/haskell/Problem005.hs)|[✔️](src/java/Problem005.java)|[✔️](src/mathematica/Problem005.m)|
+|[5](https://projecteuler.net/problem=5)|[✔️](src/c++/Problem005.cpp)|[✔️](src/haskell/Problem005.hs)|[✔️](src/java/Problem005.java)|[✔️](src/mathematica/Problem005.m)|
 |[6](https://projecteuler.net/problem=6)|❌|[✔️](src/haskell/Problem006.hs)|[✔️](src/java/Problem006.java)|[✔️](src/mathematica/Problem006.m)|
 |[7](https://projecteuler.net/problem=7)|❌|❌|[✔️](src/java/Problem007.java)|[✔️](src/mathematica/Problem007.m)|
 |[8](https://projecteuler.net/problem=8)|❌|❌|[✔️](src/java/Problem008.java)|[✔️](src/mathematica/Problem008.m)|
