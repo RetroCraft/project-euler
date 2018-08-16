@@ -3,18 +3,19 @@
 ## Overview
 
 |Language|Solutions|
-|---|---|
+|---|---:|
 |Mathematica|53|
 |Java|33|
 |Haskell|5|
 |C++|1|
+|**Total**|**92**|
 
 ## Problems
 
 Click a checkmark to see the source code, click a number to see the problem.
 
 |Problem|C++|Haskell|Java|Mathematica|
-|---|---|---|---|---|
+|---:|:---:|:---:|:---:|:---:|
 |[1](https://projecteuler.net/problem=1)|[✔️](src/c++/Problem001.cpp)|[✔️](src/haskell/Problem001.hs)|[✔️](src/java/Problem001.java)|[✔️](src/mathematica/Problem001.wls)|
 |[2](https://projecteuler.net/problem=2)|❌|[✔️](src/haskell/Problem002.hs)|[✔️](src/java/Problem002.java)|[✔️](src/mathematica/Problem002.wls)|
 |[3](https://projecteuler.net/problem=3)|❌|❌|[✔️](src/java/Problem003.java)|[✔️](src/mathematica/Problem003.wls)|

@@ -33,9 +33,10 @@ for (dirpath, dirnames, filenames) in walk('src'):
 overview = ''
 for key, value in sorted(languages.items(), reverse=True):
     overview += '|{}|{}|\n'.format(key, value)
+overview += '|**Total**|**{}**|'.format(sum(languages.values()))
 
 problems = '|Problem|{}|\n'.format('|'.join(languages.keys()))
-problems += '|---' * len(languages) + '|---|\n'
+problems += '|---:' + '|:---:' * len(languages) + '|\n'
 
 for i in range(1, max(solutions.keys()) + 1):
     problems += '|[{0}](https://projecteuler.net/problem={0})|'.format(i)
@@ -55,8 +56,9 @@ out = '''# Progress Tracking
 ## Overview
 
 |Language|Solutions|
-|---|---|
+|---|---:|
 {}
+
 ## Problems
 
 Click a checkmark to see the source code, click a number to see the problem.
