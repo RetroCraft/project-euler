@@ -5,6 +5,8 @@ import java.util.*;
  *
  * @author James Ah Yong
  */
+
+// timing: 608015000 ns
 public class Problem058 extends Problem {
 
   public static void main() {

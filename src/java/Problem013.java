@@ -10,6 +10,8 @@ import java.util.stream.Collectors;
  * 
  * @author James Ah Yong
  */
+
+// timing: 54596000 ns
 public class Problem013 extends Problem {
 
   public static void main() {

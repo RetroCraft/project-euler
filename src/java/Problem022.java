@@ -6,6 +6,8 @@ import java.io.*;
  * 
  * @author James Ah Yong
  */
+
+// timing: 24460000 ns
 public class Problem022 extends Problem {
 
 	public static void main() {

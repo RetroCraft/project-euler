@@ -5,6 +5,8 @@ import java.util.*;
  *
  * @author James Ah Yong
  */
+
+// timing: 11403810000 ns
 public class Problem074 extends Problem {
 
   // precalculated factorials from 0! to 9!

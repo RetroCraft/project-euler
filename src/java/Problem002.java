@@ -3,6 +3,8 @@
  * 
  * @author James Ah Yong
  */
+
+// timing: 35000 ns
 public class Problem002 extends Problem {
 
 	public static void main() {

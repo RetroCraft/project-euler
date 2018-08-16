@@ -5,6 +5,8 @@ import java.util.Arrays;
  *
  * @author James Ah Yong
  */
+
+// timing: 41120000 ns
 public class Problem052 extends Problem {
 
   public static void main() {

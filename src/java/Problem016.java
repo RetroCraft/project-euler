@@ -5,6 +5,8 @@ import java.math.*;
  * 
  * @author James Ah Yong
  */
+
+// timing: 2518000 ns
 public class Problem016 extends Problem {
 
 	public static void main() {

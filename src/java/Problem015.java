@@ -5,6 +5,8 @@
  * 
  * @author James Ah Yong
  */
+
+// timing: 699000 ns
 public class Problem015 extends Problem {
 
   public static void main() {

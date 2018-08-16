@@ -5,6 +5,8 @@ import java.math.BigInteger;
  *
  * @author James Ah Yong
  */
+
+// timing: 104959000 ns
 public class Problem055 extends Problem {
 
   public static void main() {
