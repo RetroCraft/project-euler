@@ -1,0 +1,7 @@
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Script files that need lf endings
+*.zsh text eol=lf
+.lvimrc text eol=lf
+pre-commit text eol=lf
