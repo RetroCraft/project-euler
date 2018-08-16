@@ -1,5 +1,7 @@
 # Project Euler
 
+![Badge](https://projecteuler.net/profile/RetroCraft.png)
+
 Solutions to the Project Euler problems, in whatever languages I feel in the mood to write in.
 
 Track how many problems have been solved on the auto-generated [markdown file](progress.md).
