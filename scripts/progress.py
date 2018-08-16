@@ -8,6 +8,7 @@ from os import walk
 
 solutions = {}
 languages = {}
+extensions = {'Haskell': 'hs', 'Mathematica': 'wls', 'Python': 'py'}
 for (dirpath, dirnames, filenames) in walk('src'):
     if (dirpath == 'src' or dirpath == 'src/esoterics'):
         continue
@@ -36,11 +37,12 @@ problems = '|Problem|{}|\n'.format('|'.join(languages.keys()))
 problems += '|---' * len(languages) + '|---|\n'
 
 for i in range(1, max(solutions.keys()) + 1):
-    problems += '|{}|'.format(i)
-    for key in languages.keys():
+    problems += '|[{0}](https://projecteuler.net/problem={0})|'.format(i)
+    for lang in languages.keys():
         # handle unsolved problems
-        if i in solutions:
-            problems += '✔️|' if key in solutions[i] else '❌|'
+        if i in solutions and lang in solutions[i]:
+            problems += '[✔️](src/{}/Problem{:03d}.{})|'.format(lang.lower(), i,
+                                                                extensions[lang] if lang in extensions else lang.lower())
         else:
             problems += '❌|'
     problems += '\n'
@@ -55,6 +57,9 @@ out = '''# Progress Tracking
 |---|---|
 {}
 ## Problems
+
+Click a checkmark to see the source code, click a number to see the problem.
+
 {}'''.format(overview, problems)
 
 f.write(out)
