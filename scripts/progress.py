@@ -8,7 +8,8 @@ from os import walk
 
 solutions = {}
 languages = {}
-extensions = {'Haskell': 'hs', 'Mathematica': 'wls', 'Python': 'py'}
+extensions = {'C++': 'cpp', 'Haskell': 'hs',
+              'Mathematica': 'wls', 'Python': 'py'}
 for (dirpath, dirnames, filenames) in walk('src'):
     if (dirpath == 'src' or dirpath == 'src/esoterics'):
         continue
