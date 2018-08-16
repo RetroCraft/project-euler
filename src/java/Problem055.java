@@ -8,12 +8,17 @@ import java.math.BigInteger;
 public class Problem055 extends Problem {
 
   public static void main() {
+    long tStart = System.nanoTime();
+
     int count = 0;
     for (int i = 1; i < 10000; i++) {
       if (!lychrelCount(i))
         count++;
     }
     System.out.println(count);
+
+    long tEnd = System.nanoTime();
+    System.err.println(tEnd - tStart + " ns");
   }
 
   public static boolean lychrelCount(int n) {

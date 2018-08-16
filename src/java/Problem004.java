@@ -8,6 +8,8 @@ import java.util.*;
 public class Problem004 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		int a = 999;
 		int b = 999;
 
@@ -49,6 +51,9 @@ public class Problem004 extends Problem {
 		}
 
 		System.out.println(largest);
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 }

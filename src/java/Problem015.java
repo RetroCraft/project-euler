@@ -8,7 +8,12 @@
 public class Problem015 extends Problem {
 
   public static void main() {
+    long tStart = System.nanoTime();
+
     System.out.println(Utilities.binomial(40, 20));
+
+ 		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
   }
 
 }

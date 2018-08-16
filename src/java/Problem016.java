@@ -8,6 +8,8 @@ import java.math.*;
 public class Problem016 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		BigInteger dearLordHelp = new BigInteger("2").pow(1000);
 
 		String[] digits = dearLordHelp.toString().split("");
@@ -19,6 +21,9 @@ public class Problem016 extends Problem {
 		}
 
 		System.out.println(sum);
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 }

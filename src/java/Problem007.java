@@ -6,6 +6,8 @@
 public class Problem007 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		int n = 0;
 		for (int i = 0; i <= 10001; i++) {
 			primefinder: while (true) {
@@ -18,6 +20,9 @@ public class Problem007 extends Problem {
 				break;
 			}
 		}
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 }

@@ -6,6 +6,8 @@
 public class Problem035 extends Problem {
 
   public static void main() {
+    long tStart = System.nanoTime();
+
     // compute prime list
     boolean[] primes = primesBelow(1000000);
     // iterate through primes
@@ -24,6 +26,9 @@ public class Problem035 extends Problem {
       count++;
     }
     System.out.println(count - 1); // do not count 1
+
+    long tEnd = System.nanoTime();
+    System.err.println(tEnd - tStart + " ns");
   }
 
   public static boolean[] primesBelow(int n) {

@@ -6,6 +6,8 @@
 public class Problem017 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		int total = 0;
 		for (int i = 1; i <= 999; i++) {
 			total += count(i);
@@ -13,6 +15,9 @@ public class Problem017 extends Problem {
 		}
 		total += "onethousand".length();
 		System.out.println(total);
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 	public static int count(int n) {

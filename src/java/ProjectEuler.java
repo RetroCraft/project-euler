@@ -14,10 +14,7 @@ public class ProjectEuler {
       Class<? extends Problem> problemClass = Class.forName(problemName).asSubclass(Problem.class);
       Method main = problemClass.getMethod("main");
       System.out.println("\nOutput:");
-      long startTime = System.nanoTime();
       main.invoke(null);
-      long endTime = System.nanoTime();
-      System.out.println("\nExecution Time:\n" + (endTime - startTime) + " ns");
     } catch (Exception e) {
       e.printStackTrace();
     }

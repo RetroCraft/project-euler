@@ -11,12 +11,17 @@ public class Problem074 extends Problem {
   public static int[] factorial = { 1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880 };
 
   public static void main() {
+    long tStart = System.nanoTime();
+
     int counter = 0;
     for (int i = 0; i < 1000000; i++) {
       if (chainLength(i) == 60)
         counter++;
     }
     System.out.println(counter);
+
+    long tEnd = System.nanoTime();
+    System.err.println(tEnd - tStart + " ns");
   }
 
   public static int chainLength(int n) {

@@ -9,6 +9,8 @@ import java.io.*;
 public class Problem022 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		String inputData = "";
 		try {
 			FileReader fReader = new FileReader("data/Problem022.txt");
@@ -35,6 +37,9 @@ public class Problem022 extends Problem {
 		}
 
 		System.out.println(Utilities.sumLongs(values));
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 }

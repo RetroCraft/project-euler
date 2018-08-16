@@ -6,6 +6,8 @@
 public class Problem003 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		long n = 600851475143l;
 
 		// remove all prime factors until prime
@@ -17,6 +19,9 @@ public class Problem003 extends Problem {
 
 		// remaining value is a) prime and b) the biggest one
 		System.out.println(n);
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 }

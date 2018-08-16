@@ -6,6 +6,8 @@
 public class Problem053 extends Problem {
 
   public static void main() {
+    long tStart = System.nanoTime();
+
     int count = 0;
     for (int n = 1; n <= 100; n++) {
       for (int r = 1; r <= n - 1; r++) {
@@ -14,6 +16,9 @@ public class Problem053 extends Problem {
       }
     }
     System.out.println(count);
+
+    long tEnd = System.nanoTime();
+    System.err.println(tEnd - tStart + " ns");
   }
 
   public static boolean binomialPastMillion(int n, int r) {

@@ -6,6 +6,8 @@
 public class Problem019 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		// Sunday: 0, Monday: 1, etc.
 		int currentDayOfWeek = 1;
 		int sundays = 0;
@@ -23,6 +25,9 @@ public class Problem019 extends Problem {
 		}
 
 		System.out.println(sundays);
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 }

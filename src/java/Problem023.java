@@ -6,6 +6,8 @@
 public class Problem023 extends Problem {
 
   public static void main() {
+    long tStart = System.nanoTime();
+
     // given that we loop through 12 -> 28123 to find abundant numbers
     boolean[] abundantNumbers = new boolean[28123];
     for (int i = 12; i < 28123; i++) {
@@ -20,6 +22,9 @@ public class Problem023 extends Problem {
       }
     }
     System.out.println(sum);
+
+    long tEnd = System.nanoTime();
+    System.err.println(tEnd - tStart + " ns");
   }
 
   public static boolean isAbundant(int n) {

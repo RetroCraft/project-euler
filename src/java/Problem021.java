@@ -8,6 +8,8 @@ import java.util.*;
 public class Problem021 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		List<Integer> amicableNumbers = new ArrayList<Integer>();
 
 		for (int i = 1; i < 1E4; i++) {
@@ -22,6 +24,9 @@ public class Problem021 extends Problem {
 		}
 
 		System.out.println(Utilities.sumInts(amicableNumbers));
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 	public static int divisorSum(int n) {

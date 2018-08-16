@@ -6,7 +6,12 @@
 public class Problem028 extends Problem {
 
   public static void main() {
+    long tStart = System.nanoTime();
+
     System.out.println(spiral(1001));
+
+    long tEnd = System.nanoTime();
+    System.err.println(tEnd - tStart + " ns");
   }
 
   public static long spiral(int size) {

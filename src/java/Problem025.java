@@ -8,6 +8,8 @@ import java.math.*;
 public class Problem025 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		BigInteger last = new BigInteger("1");
 		BigInteger current = new BigInteger("1");
 		int index = 2;
@@ -23,6 +25,9 @@ public class Problem025 extends Problem {
 		}
 
 		System.out.println(index + ": " + current.toString());
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 }

@@ -6,6 +6,8 @@
 public class Problem010 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		long total = 0;
 		long n = 1;
 		while (true) {
@@ -23,6 +25,9 @@ public class Problem010 extends Problem {
 			total += n;
 		}
 		System.out.println(total);
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 }

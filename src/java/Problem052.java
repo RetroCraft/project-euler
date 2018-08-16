@@ -8,6 +8,8 @@ import java.util.Arrays;
 public class Problem052 extends Problem {
 
   public static void main() {
+    long tStart = System.nanoTime();
+
     int i = 2;
     while (true) {
       i++;
@@ -28,6 +30,9 @@ public class Problem052 extends Problem {
         break;
       }
     }
+
+    long tEnd = System.nanoTime();
+    System.err.println(tEnd - tStart + " ns");
   }
 
 }

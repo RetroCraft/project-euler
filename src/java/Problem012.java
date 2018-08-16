@@ -6,6 +6,8 @@
 public class Problem012 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		for (long i = 1; true; i++) {
 			long triangle = 0;
 			for (long j = 0; j <= i; j++)
@@ -24,6 +26,9 @@ public class Problem012 extends Problem {
 			if (factors > 500)
 				break;
 		}
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 }

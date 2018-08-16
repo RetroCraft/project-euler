@@ -8,6 +8,8 @@ import java.math.*;
 public class Problem020 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		BigInteger dearLordHelp = new BigInteger("100");
 
 		for (int i = 99; i > 1; i--) {
@@ -23,6 +25,9 @@ public class Problem020 extends Problem {
 		}
 
 		System.out.println(sum);
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 }

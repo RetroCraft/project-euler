@@ -6,6 +6,8 @@
 public class Problem030 extends Problem {
 
   public static void main() {
+    long tStart = System.nanoTime();
+
     // precompute
     int[] powers = new int[10];
     for (int i = 0; i < 10; i++) {
@@ -24,6 +26,9 @@ public class Problem030 extends Problem {
         sum += i;
     }
     System.out.println(sum);
+
+    long tEnd = System.nanoTime();
+    System.err.println(tEnd - tStart + " ns");
   }
 
 }

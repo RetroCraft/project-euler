@@ -8,6 +8,8 @@ import java.util.*;
 public class Problem058 extends Problem {
 
   public static void main() {
+    long tStart = System.nanoTime();
+
     int size = 7;
     int primeCount = 8;
     int totalCount = 13;
@@ -34,6 +36,9 @@ public class Problem058 extends Problem {
         break;
       }
     }
+
+    long tEnd = System.nanoTime();
+    System.err.println(tEnd - tStart + " ns");
   }
 
   public static Map<Long, Boolean> primes = new HashMap<Long, Boolean>();

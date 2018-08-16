@@ -6,6 +6,8 @@
 public class Problem014 extends Problem {
 
 	public static void main() {
+		long tStart = System.nanoTime();
+
 		long longest = 0;
 		int longestLength = 0;
 		for (long start = 1; start < 1E6; start++) {
@@ -25,6 +27,9 @@ public class Problem014 extends Problem {
 		}
 
 		System.out.println(longest + ": " + longestLength);
+
+		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
 	}
 
 }

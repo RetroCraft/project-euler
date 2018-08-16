@@ -13,6 +13,8 @@ import java.util.stream.Collectors;
 public class Problem013 extends Problem {
 
   public static void main() {
+    long tStart = System.nanoTime();
+
     List<String> lines = new ArrayList<String>();
     try {
       lines = Files.readAllLines(Paths.get("data", "Problem013.txt"), StandardCharsets.UTF_8);
@@ -26,6 +28,9 @@ public class Problem013 extends Problem {
       sum = sum.add(number);
     }
     System.out.println(sum.toString().substring(0, 10));
+
+ 		long tEnd = System.nanoTime();
+		System.err.println(tEnd - tStart + " ns");
   }
 
 }
