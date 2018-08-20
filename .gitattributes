@@ -3,5 +3,6 @@
 
 # Script files that need lf endings
 *.zsh text eol=lf
+*.sh text eol=lf
 .lvimrc text eol=lf
 pre-commit text eol=lf
