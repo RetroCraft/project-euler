@@ -31,8 +31,8 @@ Print@First@MaximalBy[Range[1000000], collatzLength]
 
 
 (* ::Text:: *)
-(*Obfuscated length: 75 bytes*)
+(*Obfuscated length: 69 bytes*)
 
 
 (* ::Code:: *)
-(*c[1]=1;c[n_]:=c[n]=1+If[EvenQ@n,c[n/2],c[3n+1]];#&@@MaximalBy[Range@1*^6,c]*)
+(*c@n_:=c@n=If[EvenQ@n,c[n/2],c[3n+1]]-1;c@1=-1;#&@@Range@1*^6~SortBy~c*)
