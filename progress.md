@@ -4,11 +4,11 @@
 
 |Language|Solutions|
 |---|---:|
-|Mathematica|53|
+|Mathematica|54|
 |Java|33|
 |Haskell|5|
 |C++|6|
-|**Total**|**97**|
+|**Total**|**98**|
 
 ## Problems
 
@@ -26,7 +26,7 @@ Click a checkmark to see the source code, click a number to see the problem.
 |[8](https://projecteuler.net/problem=8)|❌|❌|[✔️](src/java/Problem008.java)|[✔️](src/mathematica/Problem008.m)|
 |[9](https://projecteuler.net/problem=9)|❌|❌|[✔️](src/java/Problem009.java)|[✔️](src/mathematica/Problem009.m)|
 |[10](https://projecteuler.net/problem=10)|❌|❌|[✔️](src/java/Problem010.java)|[✔️](src/mathematica/Problem010.m)|
-|[11](https://projecteuler.net/problem=11)|❌|❌|❌|❌|
+|[11](https://projecteuler.net/problem=11)|❌|❌|❌|[✔️](src/mathematica/Problem011.m)|
 |[12](https://projecteuler.net/problem=12)|❌|❌|[✔️](src/java/Problem012.java)|[✔️](src/mathematica/Problem012.m)|
 |[13](https://projecteuler.net/problem=13)|❌|❌|[✔️](src/java/Problem013.java)|[✔️](src/mathematica/Problem013.m)|
 |[14](https://projecteuler.net/problem=14)|❌|❌|[✔️](src/java/Problem014.java)|[✔️](src/mathematica/Problem014.m)|

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
-python3 $GIT_DIR/../scripts/progress.py
+python3 ./scripts/progress.py
 git add progress.md
